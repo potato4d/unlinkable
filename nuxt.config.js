@@ -25,7 +25,7 @@ export default {
       {
         property: 'og:url',
         hid: 'og:url',
-        content: url,
+        content: 'https://unlinkable.potato4d.me',
       },
       { property: 'og:image', hid: 'og:image', content: 'https://i.gyazo.com/3ba3b7da6527f303734c656ca35dcdb5.png' },
       {
