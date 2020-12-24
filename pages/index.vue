@@ -8,7 +8,7 @@
     <textarea v-model="input" name="Input" class="flex-1 p-4 resize-none" placeholder="Type text..." cols="30" rows="10"></textarea>
     <div class="w-full h-1 relative z-1">
       <div class="w-full h-1 bg-gray-400"></div>
-      <button @click="handleClickConvertButton" aria-label="Convert" class="appearance-none absolute left-0 right-0 mx-auto w-12 h-12 flex items-center justify-center bg-green-700 hover:bg-green-600 transition-all duration-200 text-white font-bold rounded-full shadow-lg outline-none focus:bg-green-500 focus:shadow-2xl hover:shadow-2xl" style="top: -1.5rem">
+      <button @click="handleClickConvertButton" aria-label="Convert" class="appearance-none absolute left-0 right-0 mx-auto w-12 h-12 scale-100 transform hover:scale-110 flex items-center justify-center bg-green-700 hover:bg-green-600 transition-all duration-200 text-white font-bold rounded-full shadow-lg outline-none focus:bg-green-500 focus:shadow-2xl hover:shadow-2xl" style="top: -1.5rem">
         <!-- Feather https://feathericons.com/ -->
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
       </button>
